@@ -30,7 +30,7 @@ export async function updateOrganization(app: FastifyInstance) {
             slug: z.string(),
           }),
           response: {
-            201: z.null(),
+            204: z.null(),
           },
         },
       },
